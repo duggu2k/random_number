@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random NUmber</title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        background: rgb(50, 48, 48);
+        color: white;
+        height: 300px;
+        margin: auto;
+        border-radius: 35px;
+      }
+      h3 {
+        font-size: x-large;
+        font-family: system-ui;
+      }
+      input {
+        border-radius: 10px;
+        margin: 20px;
+        height: 50px;
+        width: 75px;
+        border:2px solid black;
+      }
+      button {
+        background: black;
+        color: wheat;
+        width: 58px;
+        height: 43px;
+        border-radius: 10px;
+        border: 3px solid white;
+        cursor: pointer;
+      }
+      h2 {
+        margin-bottom: -45px;
+        font-family: system-ui;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h3>Guess a number between 1 to 100</h3>
+      <input type="text" placeholder="guess here" class="input" />
+      <button class="btn">submit</button>
+    </div>
+    <div><h2 id="result">result....</h2></div>
+    <script src="random.js"></script>
+  </body>
+</html>
